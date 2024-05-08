@@ -1,0 +1,8 @@
+Hola Isabel, el dentro esta el ejercicio que hay que entregar Jueves 9. Quería avisarte de donde se que falla:
+-Si le metes un dato en el formulario que no es del tipo que debería ser, crashea.
+-Si buscas por seccion, y hay mas de un producto en esa categoria, no falla en la web, pero en consola da un error.
+-La lista esta vacia por defecto, todos los metodos van a redirigir a error hasta que tenga algo la lista.
+-El metodo agregar producto rellena la lista con unos por defecto y ademas mete el tuyo si lo has puesto bien
+
+Por lo demas creo que está completo, creo que igual he hecho procesos de mas y me ha llevado bastante tiempo, sobre todo si me comparo con mis compañeros, y eso que no tengo ningun tipo de 
+mejora visual, pero me ha gustado el ejercicio. 
