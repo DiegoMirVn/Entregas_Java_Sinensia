@@ -1,0 +1,10 @@
+insert into cursos (codigo, nombre, duracion, precio) values (1, 'java', 46, 245.4);
+insert into cursos (codigo, nombre, duracion, precio) values (2, 'aws', 88, 201.49);
+insert into cursos (codigo, nombre, duracion, precio) values (3, 'java', 54, 311.82);
+insert into cursos (codigo, nombre, duracion, precio) values (4, 'angular', 74, 387.95);
+insert into cursos (codigo, nombre, duracion, precio) values (5, 'react', 91, 321.36);
+insert into cursos (codigo, nombre, duracion, precio) values (6, 'sql', 30, 433.44);
+insert into cursos (codigo, nombre, duracion, precio) values (7, 'aws', 90, 309.31);
+insert into cursos (codigo, nombre, duracion, precio) values (8, 'aws', 20, 237.14);
+insert into cursos (codigo, nombre, duracion, precio) values (9, 'react', 51, 193.38);
+insert into cursos (codigo, nombre, duracion, precio) values (10, 'aws', 45, 190.49);
