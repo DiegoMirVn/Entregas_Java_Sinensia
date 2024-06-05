@@ -40,6 +40,7 @@ _paciente_, _terapeuta_ y _reserva_ que son totalmente independientes uno de otr
 
 1. **Cliente**: Representa a una persona o entidad que posee uno o más vehículos.
 2. **Vehículo**: Representa a un coche, moto u otro vehículo motorizado, que pertenece a un Cliente específico.
+3. 
 
 
 # Servicio Cliente
