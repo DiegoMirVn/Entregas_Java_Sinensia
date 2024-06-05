@@ -31,7 +31,7 @@ _paciente_, _terapeuta_ y _reserva_ que son totalmente independientes uno de otr
 
 1. **Clonar el repositorio:**
   
-   ```git clone https://github.com/xxx.git```
+   ```git clone [https://github.com/xxx.git](https://github.com/DiegoMirVn/Entregas_Java_Sinensia.git)```
    
 3. **Acceder al directorio del proyecto**
   ```cd xxx```
