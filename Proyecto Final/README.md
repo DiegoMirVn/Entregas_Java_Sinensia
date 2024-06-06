@@ -38,16 +38,17 @@ _paciente_, _terapeuta_ y _reserva_ que son totalmente independientes uno de otr
 
 # Entidades
 
-1. **Cliente**: Representa a una persona o entidad que posee uno o más vehículos.
-2. **Vehículo**: Representa a un coche, moto u otro vehículo motorizado, que pertenece a un Cliente específico.
-3. 
+1. **Reserva**: Representa a una cita entre un terapeuta y un paciente
+2. **Terapeuta**: Representa a un terapeuta especifico que lleva su agenda usando el servicio
+3. **Paciente**: Representa a un paciente, cliente u otro usuario que use el servicio de los terapeutas
 
 
-# Servicio Cliente
+# Servicio Terapeuta
 
-A partir de una tabla que contiene los campos:  xxxx  se crean los siguientes recursos
+Permite el crud basico de terapeuta en la base de datos propia que incorpora. Ademas tiene metodos propios para filtrar los terapeutas por nombre.
+En la tabla incorpora los siguientes campos id_terapeuta, >nombre,apellidos,dni,especialidad,inicio_intervalo1,fin_intervalo1,inicio_intervalo2,fin_intervalo2<
 
-# Servicio Vehiculo
+# Servicio Paciente
 
 A partir de una tabla que contiene los campos:  xxxx  se crean los siguientes recursos
 
