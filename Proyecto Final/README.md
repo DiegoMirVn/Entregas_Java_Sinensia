@@ -46,7 +46,8 @@ _paciente_, _terapeuta_ y _reserva_ que son totalmente independientes uno de otr
 # Servicio Terapeuta
 
 Permite el crud basico de terapeuta en la base de datos propia que incorpora. Ademas tiene metodos propios para filtrar los terapeutas por nombre.
-En la tabla incorpora los siguientes campos id_terapeuta, >nombre<,apellidos,dni,especialidad,inicio_intervalo1,fin_intervalo1,inicio_intervalo2,fin_intervalo2<
+En la tabla incorpora los siguientes campos id_terapeuta, nombre,apellidos,dni,especialidad,inicio_intervalo1,fin_intervalo1,inicio_intervalo2,fin_intervalo2
+:+1
 
 # Servicio Paciente
 
