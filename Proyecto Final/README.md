@@ -144,22 +144,13 @@ buscar por nombre
 
 ### GestionMedica
 
-1. **Listar todos los pacientes**
-   - **URL**: `/paciente/lista`
-   - **Método**: `GET`
-
-2. **Crear un paciente**
-   - **URL**: `/paciente`
+1. **Insertar reserva verificada**
+   - **URL**: `/gestion`
    - **Método**: `POST`
 
-3. **Editar un terapeuta en general**
-   - **URL**: `/paciente`
-   - **Método**: `PUT`
-
-4. **Borrar un paciente**
-   - **URL**: `/paciente/{id}`
-   - **Método**: `DELETE`
-
+2. **Mostrar reservas asociadas a un terapeuta por nombre**
+   - **URL**: `/gestion/{nombre}`
+   - **Método**: `GET`
 
 
 
