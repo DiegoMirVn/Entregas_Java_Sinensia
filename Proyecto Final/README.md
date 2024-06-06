@@ -6,7 +6,7 @@ Un servicio de gestion de agenda mediante llamadas a la api del proyecto
 
 - [Descripción](#descripción)
 - [Características](#características)
-- [Inicio Rapido](#iniciorapido)
+
 - [Uso](#uso)
 - [Autores](#autores)
 
@@ -48,7 +48,6 @@ _paciente_, _terapeuta_ y _reserva_ que son totalmente independientes uno de otr
 Permite el crud basico de terapeuta en la base de datos propia que incorpora. Ademas tiene metodos propios para filtrar los terapeutas por nombre.
 En la tabla incorpora los siguientes campos id_terapeuta, nombre,apellidos,dni,especialidad,inicio_intervalo1,fin_intervalo1,inicio_intervalo2,fin_intervalo2
 
-
 # Servicio Paciente
 
 Permite el crud basico de paciente en la base de datos propia que incorpora. En la tabla existen los siguientes campos id_paciente,nombre,telefono.
@@ -66,39 +65,54 @@ Permite el crud basico de reserva en la base de datos propia que incorpora. En l
 
 ## Endpoints 
 
-### Clientes
+### Terapeuta
 
-1. **Listar todos los clientes**
-   - **URL**: `/cliente`
+1. **Listar todos los terapeutas**
+   - **URL**: `/terapeuta`
    - **Método**: `GET`
 
-2. **Buscar cliente por ID**
-   - **URL**: `/cliente/{id}`
+2. **Buscar terapeuta por ID**
+   - **URL**: `/terapeuta/{id}`
    - **Método**: `GET`
 
-3. **Buscar clientes por apellido**
-   - **URL**: `/cliente/detalle/{apellido}`
+3. **Crear un terapeuta**
+   - **URL**: `/terapeuta`
+   - **Método**: `POST`
+
+4. **Editar la especialidad del terapeuta**
+   - **URL**: `/terapeuta/{id}/{especialidad}`
+   - **Método**: `PATCH`
+
+5. **Editar un terapeuta en general**
+   - **URL**: `/terapeuta`
+   - **Método**: `PUT`
+
+6. **Borrar un terapeuta**
+   - **URL**: `/terapeuta/{id}`
+   - **Método**: `DELETE`
+
+7. **Obtener lista de terapeutas por nombre**
+   - **URL**: `/terapeuta/lista/{nombre}`
    - **Método**: `GET`
 
 
+### Paciente
 
-### Vehículos
-
-1. **Listar todos los vehículos**
-   - **URL**: `/vehiculo`
+1. **Listar todos los pacientes**
+   - **URL**: `/paciente/lista`
    - **Método**: `GET`
 
-2. **Buscar vehículo por ID**
-   - **URL**: `/vehiculo/{id}`
-   - **Método**: `GET`
+2. **Crear un paciente**
+   - **URL**: `/paciente`
+   - **Método**: `POST`
 
-3. **Buscar propietario del vehículo por ID del vehículo**
-   - **URL**: `/vehiculo/propietario/{id}`
-   - **Método**: `GET`
+3. **Editar un terapeuta en general**
+   - **URL**: `/paciente`
+   - **Método**: `PUT`
 
-4. **Buscar vehículo por matrícula**
-   - **URL**: `/vehiculo/detalle/matricula/{matricula}`
-   - **Método**: `GET`
+4. **Borrar un paciente**
+   - **URL**: `/paciente/{id}`
+   - **Método**: `DELETE`
 
 
 
