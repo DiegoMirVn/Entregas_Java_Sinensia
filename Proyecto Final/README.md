@@ -38,32 +38,32 @@ _paciente_, _terapeuta_ y _reserva_ que son totalmente independientes uno de otr
     Usar los scripts contenidos dentro del proyecto para crear y generar las bases de datos, tablas y registros de prueba para el proyecto
     
 
-# Entidades
+## Entidades
 
 1. **Reserva**: Representa a una cita entre un terapeuta y un paciente
 2. **Terapeuta**: Representa a un terapeuta especifico que lleva su agenda usando el servicio
 3. **Paciente**: Representa a un paciente, cliente u otro usuario que use el servicio de los terapeutas
 
 
-# Servicio Terapeuta
+### Servicio Terapeuta
 
 Permite el crud basico de terapeuta en la base de datos propia que incorpora. Ademas tiene metodos propios para filtrar los terapeutas por nombre.
 En la tabla incorpora los siguientes campos id_terapeuta, nombre,apellidos,dni,especialidad,inicio_intervalo1,fin_intervalo1,inicio_intervalo2,fin_intervalo2
 
-# Servicio Paciente
+### Servicio Paciente
 
 Permite el crud basico de paciente en la base de datos propia que incorpora. En la tabla existen los siguientes campos id_paciente,nombre,telefono.
 
-# Servicio Reserva
+### Servicio Reserva
 
 Permite el crud basico de reserva en la base de datos propia que incorpora. En la tabla existen los siguientes id_reserva,id_paciente,nombre_paciente,id_terapeuta,fecha,hora.
 
-# Servicio Gestion
+### Servicio Gestion
 
 Permite relacionar los otros 3 servicios. Tiene metodos propios para insertar una reserva de forma verificada, comprobando que la hora y el terapeuta esta disponible, además permite 
 buscar por nombre
 
-# Funcionalidades
+## Funcionalidades
 1. **Listar todos los clientes**
 2. **Buscar clientes por Id**
 3. **Buscar clientes por apellido**
