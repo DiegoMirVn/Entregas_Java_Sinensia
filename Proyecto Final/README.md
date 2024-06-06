@@ -8,7 +8,7 @@ Un servicio de gestion de agenda mediante llamadas a la api del proyecto
 - [Características](#características)
 - [Inicio Rapido](#iniciorápido)
 - [Entidades](#entidades)
-- [Autores](#autores)
+- [Autor](#autor)
 
 
 ## Descripción
