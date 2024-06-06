@@ -56,7 +56,10 @@ Permite el crud basico de paciente en la base de datos propia que incorpora. En 
 
 Permite el crud basico de reserva en la base de datos propia que incorpora. En la tabla existen los siguientes id_reserva,id_paciente,nombre_paciente,id_terapeuta,fecha,hora.
 
-![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](https://myoctocat.com/assets/images/base-octocat.svg)
+# Servicio Gestion
+
+Permite relacionar los otros 3 servicios. Tiene metodos propios para insertar una reserva de forma verificada, comprobando que la hora y el terapeuta esta disponible, además permite 
+buscar por nombre
 
 # Funcionalidades
 1. **Listar todos los clientes**
@@ -95,6 +98,27 @@ Permite el crud basico de reserva en la base de datos propia que incorpora. En l
    - **URL**: `/terapeuta/lista/{nombre}`
    - **Método**: `GET`
 
+### Reserva
+
+1. **Listar todas las reservas**
+   - **URL**: `/reserva/lista`
+   - **Método**: `GET`
+
+2. **Buscar una reserva por id**
+   - **URL**: `/reserva/lista/{id}`
+   - **Método**: `GET`
+
+3. **Crear un reserva**
+   - **URL**: `/reserva`
+   - **Método**: `POST`
+
+4. **Editar la hora de una reserva**
+   - **URL**: `/reserva/{id}/{hora}`
+   - **Método**: `PATCH`
+
+6. **Borrar un reserva**
+   - **URL**: `/reserva/{id}`
+   - **Método**: `DELETE`
 
 ### Paciente
 
