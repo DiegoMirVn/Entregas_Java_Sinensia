@@ -33,8 +33,10 @@ _paciente_, _terapeuta_ y _reserva_ que son totalmente independientes uno de otr
   
    ```git clone https://github.com/DiegoMirVn/Entregas_Java_Sinensia.git```
    
-3. **Acceder al directorio del proyecto**
-  ```cd xxx```
+2. **Crear las bases de datos**
+
+    Usar los scripts contenidos dentro del proyecto para crear y generar las bases de datos, tablas y registros de prueba para el proyecto
+    
 
 # Entidades
 
