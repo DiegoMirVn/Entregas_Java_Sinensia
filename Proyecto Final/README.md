@@ -58,15 +58,17 @@ Permite el crud basico de paciente en la base de datos propia que incorpora. En 
 
 Permite el crud basico de reserva en la base de datos propia que incorpora. En la tabla existen los siguientes id_reserva,id_paciente,nombre_paciente,id_terapeuta,fecha,hora.
 
-### Servicio Gestion
+### Servicio GestionMedica
 
 Permite relacionar los otros 3 servicios. Tiene metodos propios para insertar una reserva de forma verificada, comprobando que la hora y el terapeuta esta disponible, además permite 
 buscar por nombre
 
 ## Funcionalidades
-1. **Listar todos los clientes**
-2. **Buscar clientes por Id**
-3. **Buscar clientes por apellido**
+1. **Insertar reservas verificadas**
+2. **Listar reservas asociadas a un terapeuta por nombre**
+3. **CRUD para cada uno de los servicios con base de datos**
+4. **Edicion de campo especialidad en terapeuta**
+5. **Edicion de campo hora en reserva**
 
 ## Endpoints 
 
@@ -140,6 +142,23 @@ buscar por nombre
    - **URL**: `/paciente/{id}`
    - **Método**: `DELETE`
 
+### GestionMedica
+
+1. **Listar todos los pacientes**
+   - **URL**: `/paciente/lista`
+   - **Método**: `GET`
+
+2. **Crear un paciente**
+   - **URL**: `/paciente`
+   - **Método**: `POST`
+
+3. **Editar un terapeuta en general**
+   - **URL**: `/paciente`
+   - **Método**: `PUT`
+
+4. **Borrar un paciente**
+   - **URL**: `/paciente/{id}`
+   - **Método**: `DELETE`
 
 
 
