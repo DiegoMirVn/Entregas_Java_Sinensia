@@ -153,7 +153,18 @@ buscar por nombre
    - **Método**: `GET`
 
 
+## Tecnologias
+  - Spring Boot
+    - Spring Web
+    - Spring Data JPA
+  - Maven Eclipse
 
+
+## Autor
+
+
+Email: diego.miras@viewnext.com 
+👍
  
   
 
