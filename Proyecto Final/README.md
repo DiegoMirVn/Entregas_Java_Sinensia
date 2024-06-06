@@ -47,11 +47,17 @@ _paciente_, _terapeuta_ y _reserva_ que son totalmente independientes uno de otr
 
 Permite el crud basico de terapeuta en la base de datos propia que incorpora. Ademas tiene metodos propios para filtrar los terapeutas por nombre.
 En la tabla incorpora los siguientes campos id_terapeuta, nombre,apellidos,dni,especialidad,inicio_intervalo1,fin_intervalo1,inicio_intervalo2,fin_intervalo2
-:+1
+
 
 # Servicio Paciente
 
-A partir de una tabla que contiene los campos:  xxxx  se crean los siguientes recursos
+Permite el crud basico de paciente en la base de datos propia que incorpora. En la tabla existen los siguientes campos id_paciente,nombre,telefono.
+
+# Servicio Reserva
+
+Permite el crud basico de reserva en la base de datos propia que incorpora. En la tabla existen los siguientes id_reserva,id_paciente,nombre_paciente,id_terapeuta,fecha,hora.
+
+![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](https://myoctocat.com/assets/images/base-octocat.svg)
 
 # Funcionalidades
 1. **Listar todos los clientes**
